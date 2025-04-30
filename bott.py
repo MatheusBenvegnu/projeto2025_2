@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 # Token do Telegram (use variável de ambiente no servidor)
 TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "7843407309:AAEseTiJZm9FCxatdERmHJJTRCL7IZ8wIBw")
-WEBHOOK_URL = "https://SEU_DOMINIO/render.com/webhook"  # Substitua pelo seu domínio no Render
+WEBHOOK_URL = "https://projeto2025-2.onrender.com"  # Substitua pelo seu domínio no Render
 
 # Teclado com opções
 menu_principal = [['Realizar um novo pedido'], ['Acompanhar pedido'], ['Fazer sugestão ou reclamação']]
